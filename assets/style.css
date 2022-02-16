@@ -52,6 +52,24 @@ body {
 
 }
 
+.wapper > .image > .gif {
+
+    position: absolute;
+
+    top: 75px;
+
+    left: 84px;
+
+    width: 630px;
+
+    height: 355px;
+
+    background-size: cover;
+
+    background-image: url(screen.gif);
+
+}
+
 .wapper > .text {
 
     padding-top: 20px;
