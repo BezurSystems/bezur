@@ -62,16 +62,12 @@
 
     </div>
 
-    <div class="infos" id="info" onclick="info(0);">
+    <div class="infos" id="info">
 
-        <div class="login">
-
-            <div class="text">
-
-                УЖЕ СОВСЕМ СКОРО
-
-            </div>
-
+        <div id="my-store-23322772"></div>
+            
+        <div>
+        <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?23322772&data_platform=code&data_date=2022-03-03" charset="utf-8"></script><script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","id=my-store-23322772");</script>
         </div>
 
     </div>
@@ -82,11 +78,19 @@
 
             if(id == 1) {
 
+                document.getElementById("link").setAttribute("href", "javascript:info(0);");
+
+                document.getElementById("link").innerHTML = "Закрыть";
+
                 document.getElementById("info").style.display = "block";
 
             } else {
 
                 document.getElementById("info").style.display = "none";
+
+                document.getElementById("link").setAttribute("href", "about.html");
+
+                document.getElementById("link").innerHTML = "О Системе";
 
             }
 
