@@ -1,118 +1,75 @@
-<html>
+﻿<!DOCTYPE html>
+<html lang="ru">
 
 <head>
-
     <meta charset="utf-8" />
-
-    <title>Операционная система "Безур"</title>
-
-    <meta name="description" content="Bezur OS - отечественная облачная операционная система для предприятий" /> 
-
-    <link rel="shortcut icon" href="assets/start.png" type="image/png">
-
-    <link rel="stylesheet" href="assets/style.css" />
-
+    <title>Bezur Systems</title>
+    <meta name="description" content="Bezur Systems is a Russian development team that specializes in developing software solutions." />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/png" />
 </head>
 
 <body>
-
-    <div class="wapper">
-
-        <div class="menu">
-
-            <div class="wap">
-
-                <a href="about.html" id="link">О Системе</a>
-
-            </div>
-
+    <header class="header">
+        <div class="header-content">
+            <a href="/" class="header-content-link"><img class="header-content-logo" src="assets/img/logo.png"
+                    alt="Логотип Bezur" /></a>
+            <nav class="header-content-nav">
+                <ul class="header-content-nav-menu">
+                    <li class="header-content-nav-menu-item">
+                        <a href="https://zen.yandex.ru/id/622ccce5df6f7301a47818e6" class="header-content-nav-menu-item-link">Яндекс.Дзен</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-
-        <div class="title">Bezur OS</div>
-
-        <div class="text">Современная, быстрая, облачная операционная система для предприятий.</div>
-
-        <div class="image" title="Bezur Linux">
-
-            <div class="gif"></div>
-
-        </div>
-
-        <div class="info">
-
-            <div class="title">Что нового в Bezur OS и Bezur Linux</div>
-
-            <div class="text">
-
-                Новые способы взаимодействия для людей с ограниченными возможностями. Новый центр уведомлений. Переработаный способ доставки системных обнавлений. Новый способ разблокировки.
-
-            </div>
-
-        </div>
-
-        <div class="button" onclick="info(1);">Получить Bezur OS</div>
-
-        <a class="twitter-timeline" href="https://twitter.com/BezurOs?ref_src=twsrc%5Etfw"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-        <div class="footer">
-
-            &copy; 2021 - 2022 Bezur Systems. All rights reserved.
-
-        </div>
-
+    </header>
+    <div class="page">
+        <main class="page-content">
+            <h1>Самое время найти новый рубеж</h1>
+            <p>
+                Мы проделали большой путь от создания концепции до первых рабочих протатипов.
+            </p>
+            <p>
+                Создавая программное обеспечение Безур ОС и Bezur Linux, мы прежде всего орентировались на коммерческий и государственный сектор.
+            </p>
+            <p>
+                12 августа 2022 года было принято решение о пересмотре концепции и целей Bezur Systems.
+            </p>
+            <h2>Career at Bezur Systems</h2>
+            <p>
+                We are always glad to see talented specialists of different fields in our ranks:
+            </p>
+            <ul class="page-content-ul">
+                <li class="page-content-ul-item">- Front-end developers</li>
+                <li class="page-content-ul-item">- Back-end developers</li>
+                <li class="page-content-ul-item">- Graphic Designers</li>
+                <li class="page-content-ul-item">- UI/UX developers</li>
+                <li class="page-content-ul-item">- AI Product Managers</li>
+                <li class="page-content-ul-item">- Analytics and Data Science</li>
+                <li class="page-content-ul-item">- Projects managers</li>
+            </ul>
+            <p>
+                You can leave your resume to our email: <a href="mailto:job@bezur.ru" class="page-content-email" title="Work experience, Portfolio, Higher education and knowledge of English at level B2 and above is a must.">job@bezur.ru</a>
+            </p>
+        </main>
     </div>
-
-    <div class="infos" id="info">
-
-        <div id="my-store-23322772"></div>
-            
-        <div>
-        <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?23322772&data_platform=code&data_date=2022-03-03" charset="utf-8"></script><script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","id=my-store-23322772");</script>
-        </div>
-
-    </div>
-
-    <script>
-
-        function info(id) {
-
-            if(id == 1) {
-
-                document.getElementById("link").setAttribute("href", "javascript:info(0);");
-
-                document.getElementById("link").innerHTML = "Закрыть";
-
-                document.getElementById("info").style.display = "block";
-
-            } else {
-
-                document.getElementById("info").style.display = "none";
-
-                document.getElementById("link").setAttribute("href", "about.html");
-
-                document.getElementById("link").innerHTML = "О Системе";
-
-            }
-
-        }
-
-    </script>
-
+    <footer class="footer">
+        <a href="/">&copy; 2021 - 2022 Bezur Systems. All rights reserved.</a>
+    </footer>
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
-       (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-       m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-       (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-       ym(85739713, "init", {
-            clickmap:true,
-            trackLinks:true,
-            accurateTrackBounce:true
-       });
-    </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/85739713" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-    <!-- /Yandex.Metrika counter -->
-
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+ 
+        ym(85739713, "init", {
+             clickmap:true,
+             trackLinks:true,
+             accurateTrackBounce:true
+        });
+     </script>
+     <noscript><div><img src="https://mc.yandex.ru/watch/85739713" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+     <!-- /Yandex.Metrika counter -->
 </body>
 
 </html>
